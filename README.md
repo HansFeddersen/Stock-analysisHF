@@ -13,6 +13,10 @@ In order to see if the refactoring of the code worked, we have to take into cons
 
 ![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/StockOutcomes.png)
 
+* **The refactored code did make the script run faster than the original code:** In this case, the refactored code ran faster than the original code for each of the years. Its important to keep in mind that everytime that the script is ran, the timer gives a different time, but times are always close to each other. For more cenrainty, the original script and the refactored one where ran one right after the other. The comparison between the timers of both scripts is as follows>
+
+![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Original_Refactored_Timer.png)
+
 
 ## Questions
 
