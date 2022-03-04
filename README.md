@@ -17,6 +17,10 @@ In order to see if the refactoring of the code worked, we have to take into cons
 
 ![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Original_Refactored_Timer.png)
 
+* **Code Comparison:** For a better understanding, it is necessary to present the refacored code with explanations:
+
+
+
 
 ## Questions
 
