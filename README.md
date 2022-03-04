@@ -17,10 +17,27 @@ In order to see if the refactoring of the code worked, we have to take into cons
 
 ![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Original_Refactored_Timer.png)
 
-* **Code Comparison:** For a better understanding, it is necessary to present the refacored code with explanations:
+* **Code explanation:** For a better understanding, it is necessary to present the refacored code with explanations:
 
+* The first part of the code, is the same as the previous, the user can input the year, and as the script starts running, also the timer starts running. Then we have the first value on our worksheet which is the "All stocks" plus the value the user selected. The first part of the code is as follows:
 
+![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Code_FirstPart.png)
 
+* The second part of the code is again the same as the original code. We create the headers for the outcome chart and the constant "tickers" for each stock. Variable is created as a "String" because it contains text. The second part of the code is as follows:
+
+![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Code_SecondPart.png)
+
+* For the third part of the code, we activate the worksheet of the year selected, obtain the total number of rows, write the loop for the variable tickerIndex (defined by the constant "Tickers" and create 3 new arrays (TickerVolumes, tickerStartingPrices and tickerEndingPrices). The third part of the code is as follows:
+
+![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Code_ThirdPart.png)
+
+* For the fourth part of the code, initialize the variable "TickerIndex" to start from zero, and write the loop to add the volume for each stock (for each day). Also we write the code to obtain the first price and last price for every stock in the list. The fourth part of the code is as follows:
+
+![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Code_4Part.png)
+
+* Th fifth and last part of the code, is the range of cells where the output is going to display and formatting (formatting for all cells and format depending on the return of the stock. The fifth part of the code is as follows:
+
+![This is an image](https://github.com/HansFeddersen/Stock-analysisHF/blob/main/Resources/more/Code_5Part.png)
 
 ## Questions
 
